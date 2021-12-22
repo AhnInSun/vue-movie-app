@@ -2,9 +2,9 @@
   <footer>
     <Logo />
     <a 
-      href="https://gihub.com/ParkYoungWoong"
+      href="https://github.com/AhnInSun"
       target="_blank">
-      (c) {{ new Date().getFullYear() }} HEROPY
+      (c) {{ new Date().getFullYear() }} FLOWMAN
     </a>
   </footer>
 </template>

@@ -2,8 +2,8 @@
   <div class="container">
     <h1>
       <span>OMDb API</span><br />
-      THE OPEN<br /> 
-      MOVIE DATABASE
+      영화 검색 사이트<br /> 
+      Vue.js & ASP.NET Core Study - mini project
     </h1>
     <p>
       The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.

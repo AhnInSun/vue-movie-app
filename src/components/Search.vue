@@ -28,7 +28,7 @@
     <button 
       class="btn btn-primary" 
       @click="apply">
-      apply
+      Search
     </button>
   </div>
 </template>

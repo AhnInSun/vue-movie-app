@@ -87,7 +87,7 @@ header {
     padding: 6px;
     border-radius: 50%;
     box-sizing: border-box;
-    background-color: $gray-200;
+    background-color: $gray-100;
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -100,6 +100,7 @@ header {
     }
     img {
       width: 100%;
+      border-radius: 50%;
     }
   }
   @include media-breakpoint-down(sm) {

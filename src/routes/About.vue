@@ -57,12 +57,13 @@ export default {
     height: 250px;
     margin: 40px auto 20px;
     padding: 30px;
-    border: 10px solid $gray-300;
+    border: 0px solid $gray-100;
     border-radius: 50%;
     box-sizing: border-box;
-    background-color: $gray-200;
+    background-color: $white;
     img {
-      width: 100%
+      width: 100%;
+      border-radius: 50%;
     }
     position: relative;
   }
