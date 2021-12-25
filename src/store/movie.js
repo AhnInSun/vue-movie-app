@@ -15,8 +15,7 @@ export default {
   }),
   // computed!
   getters: {},
-  // methodsc!
-  // 변이
+  // methods!
   mutations: {
     updateState(state, payload) {
       // ['movies', 'message', 'loading']
@@ -49,9 +48,7 @@ export default {
         commit('updateState', {
           movies: _uniqBy(Search, 'imdbID')
         })
-        console.log(totalResults);  // 296 => 30
-        console.log(typeof totalResults); // string
-  
+        
         const total = parseInt(totalResults, 10)
         const pageLength = Math.ceil(total / 10)
         
@@ -94,7 +91,6 @@ export default {
 
       try {
         const res = await _fetchMovie(payload)
-        console.log(res.data);
         commit('updateState', {
           theMovie: res.data
         })
